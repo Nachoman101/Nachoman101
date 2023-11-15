@@ -1,0 +1,178 @@
+.download-button{
+    background-color: rgb(212, 42, 45);
+    color: rgb(255, 255, 255);
+    border:none;
+    height: 40px;
+    width:125px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 850px;
+    margin-top:   200px;   
+    font-weight: bold;
+
+}
+.download-button:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    border:none;
+    height: 40px;
+    width:125px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 850px;
+    margin-top:   200px; 
+    font-weight: bold;
+    opacity: 0.75;
+}
+.download-button:active{
+    background-color: blue(6, 89, 6);
+    color: rgb(255, 255, 255);
+    border:none;
+    height: 40px;
+    width:125px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 850px;
+    margin-top:   200px; 
+    font-weight: bold;
+    opacity: 0.5 ;
+}
+html {
+    min-height: 100%;
+}
+body {
+    background: linear-gradient(to bottom, white, green);
+    padding-bottom: 100px;
+    font-family: Roboto;
+  }
+.Top-of-Website{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Potrait-Photo{
+    width: 100%;
+}
+img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 15px;
+  }
+.main-title{
+    display: inline-block;
+    font-family: Roboto;
+    height: 40px;
+    margin-top: 100px;
+    vertical-align: top;
+    font-size: 30px;
+}
+.contact-image-sizes{
+    width:25px;
+    height:25px;
+}
+.contact-info{
+    display:inline-block;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.container{
+  width: 1200px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  height: 100%;
+}
+
+.tab_box{
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  border-bottom: 2px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  font-size: 18px;
+  position: relative;
+}
+.tab_box .tab_btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background: none;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.tab_box .tab_btn.active{
+    color: green;
+}
+.content-box{
+    padding: 20px;
+    height: auto;
+}
+.content-box .content.active{
+    display: block;
+}
+.content-box .content{
+    display: none;
+}
+.content-box .content h3{
+    margin-bottom: 10px;
+}
+
+.line{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 160px;
+    height: 5px;
+    background-color: green;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+@keyframes moving{
+    from{transform: translateX(50px);opacity: 0;}
+    to{transform: translateX(0px);opacity: 1;}
+}
+
+.Grad-Photo{
+    width: 350px;
+    height: 350px;
+}
+.header-mid{
+    text-align: center;
+}
+.about_me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.java_content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.BSTResults{
+    width:600px;
+    height:250px;
+}
+.java_text{
+    margin-right: 20px;
+}
+.Proj2Results{
+    width:600px;
+    height:450px;
+}
+.Intersection_image{
+    width: 600px;
+    height: 450px;
+}
+.text-mid{
+    text-align: center;
+}
