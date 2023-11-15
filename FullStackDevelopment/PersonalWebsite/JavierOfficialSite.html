@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="JavierOfficialSite.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class = "Top-of-Website">
+        <div>
+        <img class = "Potrait-Photo" src="Watertower.png" alt = "An image of javier ordonez" />
+        </div>
+        <div>
+        <p class="main-title">
+            Javier's Portfolio
+        </p>
+        </div>
+        <div class="contacts">
+            <div class = "phone-contact">
+                <img class = "contact-image-sizes" src = "phone_logo.png" alt = "An image of a phone"/>
+                <p class = "contact-info">
+                    703-332-5950
+                </p>
+            </div>
+            <div class = "mail-contact">
+                <img class = "contact-image-sizes" src = "Gmail_logo.png" alt = "An image of the gmail logo"/>
+                <p class = "contact-info">
+                    javierord99@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class = "container">
+        <div class="tab_box">
+            <button class = "tab_btn active">
+                About Me
+            </button>
+            <button class = "tab_btn">
+                Java
+            </button>
+            <button class = "tab_btn">
+                C/C++
+            </button>
+            <button class = "tab_btn">
+                CUDA
+            </button>
+            <button class = "tab_btn">
+                HTML/CSS/Javascript
+            </button>
+            <button class = "tab_btn">
+                Python
+            </button>
+            <div class = "line"></div>
+        </div>
+        <div class ="content-box">
+            <div class = "content active">
+                <div class = "about_me">
+                    <img class = "Grad-Photo" src = "JavierGrad.png" alt = "An image of the gmail logo"/>
+                    <p>
+                        Hi! I am Javier Ordonez! I am a recent Graduate from George Mason University!
+                        I graduated with a Degree in Computer Engineering! I like to go for outdoor
+                        walks with my pet Korra as seen in the picture to your left and I like to 
+                        hang out with people I love whether it be on video games or social events!
+                        I face a little bit of an uphill struggle with job searching due to my 
+                        residency status in the US. I currently only have my Permanent Residence and 
+                        am patiently waiting for the opportunity to get my US Citizenship in 2024!
+                        In the meantime, I am learning new languages (like HTML/C++/Javascript/SQL) 
+                        and making projects to broaden my horizon of knowledge and strengthen my resume.
+                        For the meantime, I put a hold on my job pursuit to place emphasis on these things
+                        to allow myself to have a better chance at obtaining remote and out of state jobs
+                        that will allow me to work without US Citizenship. Feel free to look around this
+                        page to see the things I have done over the years! I felt like code being 
+                        accessible through GitHub is better for now given that I am still fairly new 
+                        to online security and would give the reader a better state of mind to view code 
+                        via a trusted website.
+                    </p>
+                </div>
+            </div>
+            <div class = "content">
+                <h2 class = "header-mid">Binary Search Tree/Linear Probing Hash Map Sorter</h2>
+                <div class = "java_content">
+                    <div class = "p_content">
+                        <p class ="java_text">
+                            This project showcases good execution of Object-Oriented 
+                            Programming (OOP) and showcases good use of data structures 
+                            in an efficient Big O scaling. The purpose of this 
+                            project is to allow for the program to first gain input on the 
+                            command line arguments given. If one word is given, it will 
+                            find words from a BST in a Hashmap spot that sound similar to 
+                            that word. If more than two words are given, it will determine 
+                            if these words sound alike based on the BST entries. If the 
+                            word isn't found in any of the BSTs in both cases, the program
+                            will notify us of this occurrence and make a special print 
+                            statement. Now, how does the program know which words sound 
+                            alike? First, it will  read a file consisting of words and how 
+                            they sound. The manner they sound depends on the very last key 
+                            pronunciations followed by the letters that may trickle after. 
+                            We use these combination of things to form a Hash Map key, and 
+                            dependent on the availability of the spot in the Hashmap, we would 
+                            either store this sound into an already existing BST at that 
+                            Hashmap value or create a new BST if that spot of the Hashmap is
+                            vacant. On the right, you will see what happens when only one word 
+                            is inputted, more than two words are inputted (no similar sounding
+                            sounds) and when more than two words are inputted (similar sounding 
+                            sounds along with an entry that doesn't exist anywhere).
+                        </p>
+                        <p>
+                            To view this code, please check out this <a href="https://github.com/Nachoman101/Nachoman101/tree/main/GenericBST-HashMapProject">Link!
+                        </a></p>
+                    </div>
+                    <img class = "BSTResults" src = "BSTHashMapResults.png" alt = "An image of the gmail logo"/>
+                </div>
+            </div>
+            <div class = "content">
+                <h2 class = "header-mid">Self-Balancing/Path-Tracking/Line-Navigating Robot</h2>
+                <div class = "java_content">
+                    <div class = "p_content">
+                        <p class ="java_text">
+                            This project showcases my ability to interface between hardware
+                            and software to provide a worthwhile product that can be developed into
+                            something greater in the open market. The basis of this project is a 
+                            time-dependent system that gains inputs every 5ms from its sensors
+                            in order to attenuate motor signals properly. The main controls 
+                            feature PI/PD/PID controllers that are responsible for: Balancing 
+                            and Line Tracking. At the core thinking unit of this project is an
+                            Arduino Microcontroller that is programmed to an Finite State Machine,
+                            that based on certain conditions, changes its mode of operation. For
+                            object detection, we opted to go with a simple Ultrasonic sensor 
+                            but preliminary plans included a Machine Learning Raspberry Pi Camera
+                            Module. This is what my next project is about after I finish coding
+                            this website. For line detection, we used an IR Sensor Array. 
+                        </p>
+                        <p>
+                            To view this code, please check out this <a href="https://github.com/Nachoman101/Nachoman101/tree/main/C-C%2B%2B/Self-Balancing-Robot">Link!
+                        </a></p>
+                    </div>
+                    <iframe width="600" height="315" src="https://www.youtube.com/embed/_noIz1Impys?si=1AYG_8IMAbEMept_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <hr>
+                <h2 class = "header-mid">Multi-Threaded Cars and Trucks Approaching Intersection Problem in C!</h2>
+                <div class = "java_content">
+                    <div class = "p_content">
+                        <p class ="java_text">
+                            This project showcases my ability to interface between hardware
+                            and software to provide a worthwhile product that can be developed into
+                            something greater in the open market. The basis of this project is a 
+                            time-dependent system that gains inputs every 5ms from its sensors
+                            in order to attenuate motor signals properly. The main controls 
+                            feature PI/PD/PID controllers that are responsible for: Balancing 
+                            and Line Tracking. At the core thinking unit of this project is an
+                            Arduino Microcontroller that is programmed to an Finite State Machine,
+                            that based on certain conditions, changes its mode of operation. For
+                            object detection, we opted to go with a simple Ultrasonic sensor 
+                            but preliminary plans included a Machine Learning Raspberry Pi Camera
+                            Module. This is what my next project is about after I finish coding
+                            this website. For line detection, we used an IR Sensor Array. 
+                        </p>
+                        <p>
+                            To view this code, please check out this <a href="https://github.com/Nachoman101/Nachoman101/tree/main/C-C++/PartialIntersectionLockThreadsInC">Link!
+                        </a></p>
+                    </div>
+                    <img class = "Intersection_image" src = "ThreeWayIntersection.png" alt = "An image of the gmail logo"/>
+                </div>
+            </div>  
+            <div class = "content">
+                <h2 class = "header-mid">Image Distortion and Augmentation via NVIDIA GPUs using CUDA</h2>
+                <div class = "java_content">
+                    <div class = "p_content">
+                        <p class ="java_text">
+                            These project showcases thread efficiency via thread numbers and performance
+                            optimization. We allow this by minimizing the amount of thread blocks there
+                            are working on the image in total. This cuts into the amount of threads we use
+                            and thus allows for higher operation of the Streaming Multiprocessor. By cutting
+                            into the amount of threads we use we are essentially creating more optimal code 
+                            by minimizing the amount of threads doing the same thing. These concepts are important
+                            to the project that asks us to place a red bird onto any given image (while watching
+                            for extreme cases) and filtering out the image leaving only but a white canvas
+                            and the red bird. Check the images to the right for visuals on how this project
+                            works!
+                        </p>
+                        <p>
+                            To view this code, please check out this <a href="https://github.com/Nachoman101/Nachoman101/blob/main/CUDAandMultithreading/CUDA/Proj3.cu">Link!
+                        </a></p>
+                        
+                    </div>
+                    <div>
+                        <img class = "BSTResults" src = "Proj3Results.png" alt = "An image of the gmail logo"/>
+                    </div>
+                </div>
+                <hr>
+                <div class = "java_content">
+                    <div class = "p_content">
+                        <p class ="java_text">
+                            This project showcases the effect of a naive approach (Kernel 1) to an image distortion of 
+                            making an image center dark and increasing the brightness as you head further away
+                            from the center. Improvised solutions occurred in Kernels 2 and 3 where Kernel
+                            2 swaps out a computed division multiple within the kernel with a computed division
+                            kernel outside the kernel that is passed to the kernel. Kernel 3 expedites the performing
+                            speed of the program by taking advantage of how many data bits you can grab at one time 
+                            by manipulating the type of data you are extracting from the image. Say you extract data
+                            of type char you only get 3 pixels in one global memory access. But if you extract data from 
+                            type int you can get 12 pixels for the same time price of a char global memory access! The
+                            images to the right show how the final image looks like and how the expedited speeds appear
+                            for all the different kernels!
+                        </p>
+                        <p>
+                            To view this code, please check out this <a href="https://github.com/Nachoman101/Nachoman101/blob/main/CUDAandMultithreading/CUDA/Proj2.cu">Link!
+                        </a></p>
+                    </div>
+                    <div>
+                        <img class = "Proj2Results" src = "Proj2Results.png" alt = "An image of the gmail logo"/>
+                    </div>
+                </div>
+            </div>
+            <div class = "content">
+                <h2 class = "header-mid">Personal Website</h2>
+                <p class = "text-mid">
+                    For this project, I have only down one major HTML/CSS/Javascript 
+                    Project which is the website you are looking at right now!
+                </p>
+                To view this code, please check out this <a href="https://github.com/Nachoman101/Nachoman101/blob/main/CUDAandMultithreading/CUDA/Proj2.cu">Link!
+            </div>
+            <div class = "content">
+                <h3 class = "header-mid">Machine Learning Facial Detection with Raspberry Pi Camera Module</h3>
+                <p>
+                    Coming Soon
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="grad1"></div>
+    <script>
+        const tabs = document.querySelectorAll('.tab_btn');
+        const all_content = document.querySelectorAll('.content');
+
+            tabs.forEach((tab,index)=>{
+                tab.addEventListener('click',(e)=>{
+                tabs.forEach(tab=>{tab.classList.remove('active')});
+                tab.classList.add('active');
+
+                
+                var line = document.querySelector('.line');
+                line.style.width = e.target.offsetWidth + "px";
+                line.style.left = e.target.offsetLeft + "px";
+
+                all_content.forEach(content=>{content.classList.remove('active')});
+                all_content[index].classList.add('active');
+
+                })
+            })
+    </script>
+</body>
+</html>
